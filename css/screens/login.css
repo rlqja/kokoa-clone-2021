@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+
+body {
+  background-color: #fafafa;
+}
+
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+}
+
+#boxking {
+  margin-top: 50px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 90vw;
+  height: 57vh;
+  margin-left: 27px;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#login-form input {
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  background-color: rgba(0, 0, 0, 0.045);
+}
+
+#login-form input:not([type="submit"]) {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+  padding-left: 20px;
+}
+
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#login-form input:focus {
+  border-color: var(--yellow);
+}
+
+#login-form input[type="submit"] {
+  background-color: #b1dffd;
+  cursor: pointer;
+  padding: 20px 0px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: white;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}
+
+#no-iD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 90vw;
+  height: 70px;
+  margin-left: 27px;
+}
+#no-iD span {
+  margin-right: 20px;
+}
+#no-iD input {
+  color: rgb(62, 115, 230);
+  border: none;
+  background-color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
